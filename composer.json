@@ -1,0 +1,20 @@
+{
+    "name": "jansenfelipe/nfe-gratis",
+    "description": "Com esse pacote você poderá consultar, gratuitamente, NFe diretamente no site da receita.",
+    "keywords": ["consulta", "receita", "nfe", "php"],
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JansenFelipe\\NFeGratis\\": "src/"
+        }
+    },
+    "suggest": {
+        "jansenfelipe/cnpj-gratis": "Permite consulta de CNPJ no site dos Correios",
+        "jansenfelipe/cpf-gratis": "Permite consulta de CPF no site da receita",
+        "jansenfelipe/cep-gratis": "Permite consulta de CEP no site dos Correios"
+    },
+    "minimum-stability": "dev"
+}
