@@ -16,5 +16,9 @@
         "jansenfelipe/cpf-gratis": "Permite consulta de CPF no site da receita",
         "jansenfelipe/cep-gratis": "Permite consulta de CEP no site dos Correios"
     },
-    "minimum-stability": "dev"
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
 }
