@@ -6,6 +6,7 @@ Atenção: Esse pacote não possui leitor de captcha, mas captura o mesmo para s
 
 ### Changelog
 
+* 1.0.1 - Add headers + fix server
 * 1.0.0 - Criação da lib + provider FSist
 
 ### Como utilizar
