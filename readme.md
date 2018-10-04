@@ -40,7 +40,8 @@ Agora basta chamar o método `getNFe()` passando o chave de acesso da NFe e os p
 ```php
 $xml = $nfeGratis->getNFe('CHAVE_ACESSO_NFE', [
    'captcha' => 'INFORME_AS_LETRAS_DO_CAPTCHA',
-   'usuarioID' => 'INFORME_O_PARAMETRO_RETORNADO_USUARIO_ID'
+   'usuarioID' => '<usuarioID>' //Retornado no método getParams()
+   'server' => '<server>' //Retornado no método getParams()
 ]);
 ```
 
